@@ -14,9 +14,36 @@
         "vestedSharesValue": "10340.75",
         "settledSharesAmount": "1050",
         "portfolioDistribuition": {
-          "vesting": "85",
-          "vested": "11",
-          "settled": "4"
+          "vesting": {
+            "percentage": "85",
+            "plans": [
+              {
+                "plan": "Stock Options",
+                "balance": "11059",
+                "rate": "75"
+              },
+              {
+                "plan": "Ações Restritas",
+                "balance": "11059",
+                "rate": "25"
+              }
+            ]
+          },
+          "vested": {
+            "percentage": "15",
+            "plans": [
+              {
+                "plan": "Stock Options",
+                "balance": "3572",
+                "rate": "75"
+              },
+              {
+                "plan": "Ações Restritas",
+                "balance": "5060",
+                "rate": "25"
+              }
+            ]
+          }
         }
       },
       "shares-by-ticker": [
