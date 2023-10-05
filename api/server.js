@@ -23,6 +23,33 @@ server.get('/api/beneficiaryLTI/shares-by-ticker/RAIZ4', (req, res) => {
     res.json(data);
   });
 
+server.get('/api/beneficiaryLTI/shares-by-ticker/RAIZ6', (req, res) => {
+    const db = router.db;
+    const data = db.get('api.beneficiaryLTI.shares-by-ticker.RAIZ6').value();
+    res.json(data);
+  });
+
+server.get('/api/beneficiaryLTI/shares-by-ticker/RAIZ7', (req, res) => {
+    const db = router.db;
+    const data = db.get('api.beneficiaryLTI.shares-by-ticker.RAIZ7').value();
+    res.json(data);
+  });
+
+server.get('/api/beneficiaryLTI/shares-by-ticker/RAIZ8', (req, res) => {
+    const db = router.db;
+    const data = db.get('api.beneficiaryLTI.shares-by-ticker.RAIZ8').value();
+    res.json(data);
+  });
+
+server.get('/api/beneficiaryLTI/shares-by-ticker/RAIZ9', (req, res) => {
+    const db = router.db;
+    const data = db.get('api.beneficiaryLTI.shares-by-ticker.RAIZ9').value();
+    res.json(data);
+  });
+
+
+
+
 server.use(router)
 server.listen(3000, () => {
     console.log('JSON Server is running')
