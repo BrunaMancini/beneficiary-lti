@@ -11,11 +11,18 @@ server.get('/api/beneficiaryLTI/portfolio-consolidated', (req, res) => {
     res.json(data);
   });
 
-server.get('/api/beneficiaryLTI/shares-by-ticker', (req, res) => {
+/*server.get('/api/beneficiaryLTI/shares-by-ticker', (req, res) => {
     const db = router.db;
     const data = db.get('api.beneficiaryLTI.shares-by-ticker').value();
     res.json(data);
-  });
+  });*/
+
+server.get('/api/beneficiaryLTI/shares-by-ticker/:parameter', (req, res) => {
+    const parameter = req.params.parameter;
+    const db = router.db;
+    const data = db.get('api.beneficiaryLTI.shares-by-ticker.${parameter}`).value();
+    res.json(data);
+});
 
 server.get('/api/beneficiaryLTI/next-events', (req, res) => {
     const db = router.db;
