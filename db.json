@@ -1,5 +1,8 @@
 {
   "api": {
+    "GetCompany": {
+      "name": "Pris"
+    },
     "beneficiaryLTI": {
       "portfolio-consolidated": {
         "totalPortfolioCurrencySymbol": "BRL",
