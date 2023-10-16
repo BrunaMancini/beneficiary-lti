@@ -3,15 +3,18 @@ const server = jsonServer.create()
 const router = jsonServer.router('db.json')
 const middlewares = jsonServer.defaults()
 
-// Middleware to parse JSON from the request body
-server.use(jsonServer.bodyParser)
-
 server.use(middlewares)
 
-server.post('/api/beneficiaryLTI/tickers-by-date', (req, res) => {
-    const { startDate, endDate } = req.body; // Assuming you send startDate and endDate in the request body
+server.get('/api/beneficiaryLTI/tickers-by-date', (req, res) => {
     const db = router.db;
     const data = db.get('api.beneficiaryLTI.tickers-by-date').value();
+    
+    const startDate = req.header('startDate');
+    const endDate = req.header('endDate');
+
+    if (!startDate || !endDate) {
+        return res.status(400).json({ error: 'startDate and endDate are required header parameters.' });
+    }
 
     // Filter the data based on the received dates
     const filteredData = data.filter(item => {
