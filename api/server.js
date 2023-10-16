@@ -34,9 +34,17 @@ server.post('/api/beneficiaryLTI/tickers-by-date', (req, res) => {
         return res.status(400).json({ error: 'both "startDate" and "endDate" headers are required for filtering.' });
     }
 
+   // Parse the start and end dates into Date objects
+    const startDateObj = new Date(startDate);
+    const endDateObj = new Date(endDate);
+
+    if (isNaN(startDateObj.getTime()) || isNaN(endDateObj.getTime())) {
+        return res.status(400).json({ error: 'Invalid date format. Use "dd-MM-yyyy" format.' });
+    }
+
     const filteredData = data.filter(item => {
-        const itemDate = item.date;
-        return Date(itemDate) >= Date(startDate) &&  Date(itemDate) <=  Date(endDate);
+        const itemDate = new Date(item.date);
+        return itemDate >= startDateObj && itemDate <= endDateObj;
     });
 
     res.json(filteredData);
