@@ -18,7 +18,7 @@ server.post('/api/beneficiaryLTI/tickers-by-date', (req, res) => {
 
     const filteredData = data.filter(item => {
         const itemDate = item.date;
-        return itemDate >= startDate && itemDate <= endDate;
+        return Date(itemDate) >= Date(startDate) &&  Date(itemDate) <=  Date(endDate);
     });
 
     res.json(filteredData);
