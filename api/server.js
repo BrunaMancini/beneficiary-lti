@@ -9,11 +9,11 @@ server.post('/api/beneficiaryLTI/tickers-by-date', (req, res) => {
     const db = router.db;
     const data = db.get('api.beneficiaryLTI.tickers-by-date').value();
 
-    const startDate = req.query.startDate; // Retrieve from query parameters
-    const endDate = req.query.endDate; // Retrieve from query parameters
+    const startDate = req.header('startDate');
+    const endDate = req.header('endDate');
 
     if (!startDate || !endDate) {
-        return res.status(400).json({ error: 'Both "startDate" and "endDate" query parameters are required for filtering.' });
+        return res.status(400).json({ error: 'Both "startDate" and "endDate" headers are required for filtering.' });
     }
 
     // Filter the data based on the received startDate and endDate
