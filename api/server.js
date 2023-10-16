@@ -3,57 +3,27 @@ const server = jsonServer.create()
 const router = jsonServer.router('db.json')
 const middlewares = jsonServer.defaults()
 
+// Middleware to parse JSON from the request body
+server.use(jsonServer.bodyParser)
+
 server.use(middlewares)
 
-server.get('/api/beneficiaryLTI/GetCompany', (req, res) => {
+server.post('/api/beneficiaryLTI/tickers-by-date', (req, res) => {
+    const { startDate, endDate } = req.body; // Assuming you send startDate and endDate in the request body
     const db = router.db;
-    const data = db.get('api.beneficiaryLTI.GetCompany').value();
-    res.json(data);
-  });
+    const data = db.get('api.beneficiaryLTI.tickers-by-date').value();
 
-server.get('/api/beneficiaryLTI/portfolio-consolidated', (req, res) => {
-    const db = router.db;
-    const data = db.get('api.beneficiaryLTI.portfolio-consolidated').value();
-    res.json(data);
-  });
+    // Filter the data based on the received dates
+    const filteredData = data.filter(item => {
+        const itemDate = new Date(item.date); // Assuming your JSON data has a 'date' property
+        return itemDate >= new Date(startDate) && itemDate <= new Date(endDate);
+    });
 
-server.get('/api/beneficiaryLTI/next-events', (req, res) => {
-    const db = router.db;
-    const data = db.get('api.beneficiaryLTI.next-events').value();
-    res.json(data);
-  });
-
-server.get('/api/beneficiaryLTI/shares-by-ticker/RAIZ4', (req, res) => {
-    const db = router.db;
-    const data = db.get('api.beneficiaryLTI.shares-by-ticker.RAIZ4').value();
-    res.json(data);
-  });
-
-server.get('/api/beneficiaryLTI/shares-by-ticker/RAIZ6', (req, res) => {
-    const db = router.db;
-    const data = db.get('api.beneficiaryLTI.shares-by-ticker.RAIZ6').value();
-    res.json(data);
-  });
-
-server.get('/api/beneficiaryLTI/shares-by-ticker/RAIZ7', (req, res) => {
-    const db = router.db;
-    const data = db.get('api.beneficiaryLTI.shares-by-ticker.RAIZ7').value();
-    res.json(data);
-  });
-
-server.get('/api/beneficiaryLTI/shares-by-ticker/RAIZ8', (req, res) => {
-    const db = router.db;
-    const data = db.get('api.beneficiaryLTI.shares-by-ticker.RAIZ8').value();
-    res.json(data);
-  });
-
-server.get('/api/beneficiaryLTI/shares-by-ticker/RAIZ9', (req, res) => {
-    const db = router.db;
-    const data = db.get('api.beneficiaryLTI.shares-by-ticker.RAIZ9').value();
-    res.json(data);
-  });
+    res.json(filteredData);
+});
 
 server.use(router)
+
 server.listen(3000, () => {
     console.log('JSON Server is running')
 })
