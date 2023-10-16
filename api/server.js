@@ -5,7 +5,7 @@ const middlewares = jsonServer.defaults();
 
 server.use(middlewares);
 
-server.get('/api/beneficiaryLTI/tickers-by-date', (req, res) => {
+server.post('/api/beneficiaryLTI/tickers-by-date', (req, res) => {
     const db = router.db;
     const data = db.get('api.beneficiaryLTI.tickers-by-date').value();
 
