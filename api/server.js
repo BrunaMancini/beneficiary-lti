@@ -34,7 +34,6 @@ server.post('/api/beneficiaryLTI/tickers-by-date', (req, res) => {
         return res.status(400).json({ error: 'both "startDate" and "endDate" headers are required for filtering.' });
     }
 
-   // Parse the start and end dates into Date objects
     const startDateObj = new Date(startDate);
     const endDateObj = new Date(endDate);
 
@@ -47,6 +46,8 @@ server.post('/api/beneficiaryLTI/tickers-by-date', (req, res) => {
         return itemDate >= startDateObj && itemDate <= endDateObj;
     });
 
+    filteredData.sort((a, b) => new Date(a.date) - new Date(b.date));
+    
     res.json(filteredData);
 });
 
