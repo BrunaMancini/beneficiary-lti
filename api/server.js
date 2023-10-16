@@ -13,12 +13,16 @@ server.get('/api/beneficiaryLTI/tickers-by-date', (req, res) => {
     const endDate = req.header('endDate');
 
     if (!startDate || !endDate) {
-        return res.status(400).json({ error: '"startDate" and "endDate" headers are required for filtering.' });
+        return res.status(400).json({ error: 'Both "startDate" and "endDate" headers are required for filtering.' });
     }
 
+    // Filter the data based on the received startDate and endDate
     const filteredData = data.filter(item => {
-        const itemDate = item.date;
-        return itemDate >= startDate && itemDate <= endDate;
+        const itemDate = item.date; // Assuming your date format is "dd-MM-yyyy"
+        if (itemDate >= startDate && itemDate <= endDate) {
+            return item.tickers.length > 0; // Include only items with tickers
+        }
+        return false;
     });
 
     res.json(filteredData);
