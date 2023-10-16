@@ -45,10 +45,15 @@ server.post('/api/beneficiaryLTI/tickers-by-date', (req, res) => {
         const itemDate = new Date(item.date);
         return itemDate >= startDateObj && itemDate <= endDateObj;
     });
-
-    filteredData.sort((a, b) => new Date(a.date) - new Date(b.date));
+    
+    filteredData.sort((a, b) => {
+        const dateA = a.date.split('-').reverse().join('');
+        const dateB = b.date.split('-').reverse().join('');
+        return dateA.localeCompare(dateB);
+    });
     
     res.json(filteredData);
+    
 });
 
 server.use(router);
