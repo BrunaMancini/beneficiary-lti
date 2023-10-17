@@ -31,10 +31,9 @@ server.post('/api/beneficiaryLTI/tickers-by-date', (req, res) => {
     const endDate = req.header('endDate');
 
     if (!startDate || !endDate) {
-        return res.status(400).json({ error: 'Both "startDate" and "endDate" headers are required for filtering.' });
+        return res.status(400).json({ error: 'both "startDate" and "endDate" headers are required for filtering.' });
     }
 
-    // Parse the start and end dates into Date objects
     const startDateParts = startDate.split('-');
     const endDateParts = endDate.split('-');
 
@@ -46,7 +45,7 @@ server.post('/api/beneficiaryLTI/tickers-by-date', (req, res) => {
     const endDateObj = new Date(endDateParts[2], endDateParts[1] - 1, endDateParts[0]);
 
     if (isNaN(startDateObj.getTime()) || isNaN(endDateObj.getTime())) {
-        return res.status(400).json({ error: 'Invalid date format. Use "dd-MM-yyyy" format.' });
+        return res.status(400).json({ error: 'invalid date format - use "dd-MM-yyyy", please' });
     }
 
     // Filter the data based on the received startDate and endDate
@@ -59,8 +58,16 @@ server.post('/api/beneficiaryLTI/tickers-by-date', (req, res) => {
         return false;
     });
 
-    // Sort the filtered data by date in ascending order
-    filteredData.sort((a, b) => a.date.localeCompare(b.date));
+    filteredData.sort((a, b) => {
+        const dateA = new Date(a.date.split('-').reverse().join('/'));
+        const dateB = new Date(b.date.split('-').reverse().join('/'));
+        return dateA - dateB;
+    });
+
+    filteredData.forEach(item => {
+        const dateParts = item.date.split('-');
+        item.date = dateParts.reverse().join('-');
+    });
 
     res.json(filteredData);
 });
