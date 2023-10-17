@@ -31,9 +31,10 @@ server.post('/api/beneficiaryLTI/tickers-by-date', (req, res) => {
     const endDate = req.header('endDate');
 
     if (!startDate || !endDate) {
-        return res.status(400).json({ error: 'both "startDate" and "endDate" headers are required for filtering.' });
+        return res.status(400).json({ error: 'Both "startDate" and "endDate" headers are required for filtering.' });
     }
 
+    // Parse the start and end dates into Date objects
     const startDateParts = startDate.split('-');
     const endDateParts = endDate.split('-');
 
@@ -41,37 +42,29 @@ server.post('/api/beneficiaryLTI/tickers-by-date', (req, res) => {
         return res.status(400).json({ error: 'Invalid date format. Use "dd-MM-yyyy" format.' });
     }
 
-    const startDateObj = new Date(startDateParts[2], startDateParts[1] - 1, startDateParts[0]);
-    const endDateObj = new Date(endDateParts[2], endDateParts[1] - 1, endDateParts[0]);
-
-    if (isNaN(startDateObj.getTime()) || isNaN(endDateObj.getTime())) {
-        return res.status(400).json({ error: 'invalid date format - use "dd-MM-yyyy", please' });
-    }
+    // Convert start and end dates to the "yyyy-MM-dd" format for proper comparison
+    const startDateFormatted = `${startDateParts[2]}-${startDateParts[1]}-${startDateParts[0]}`;
+    const endDateFormatted = `${endDateParts[2]}-${endDateParts[1]}-${endDateParts[0]}`;
 
     // Filter the data based on the received startDate and endDate
     const filteredData = data.filter(item => {
         const itemDateParts = item.date.split('-');
         if (itemDateParts.length === 3) {
-            const itemDateObj = new Date(itemDateParts[2], itemDateParts[1] - 1, itemDateParts[0]);
-            return itemDateObj >= startDateObj && itemDateObj <= endDateObj;
+            const itemDateFormatted = `${itemDateParts[2]}-${itemDateParts[1]}-${itemDateParts[0]}`;
+            return itemDateFormatted >= startDateFormatted && itemDateFormatted <= endDateFormatted;
         }
         return false;
     });
 
+    // Sort the filtered data by date in ascending order
     filteredData.sort((a, b) => {
-        const dateA = new Date(a.date.split('-').reverse().join('/'));
-        const dateB = new Date(b.date.split('-').reverse().join('/'));
-        return dateA - dateB;
-    });
-
-    filteredData.forEach(item => {
-        const dateParts = item.date.split('-');
-        item.date = dateParts.reverse().join('-');
+        const dateA = a.date.split('-').reverse().join('-');
+        const dateB = b.date.split('-').reverse().join('-');
+        return dateA.localeCompare(dateB);
     });
 
     res.json(filteredData);
 });
-
 
 server.use(router);
 
