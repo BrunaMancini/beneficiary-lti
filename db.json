@@ -47,6 +47,12 @@
               "stockPrice": "0.67",
               "currency": "$",
               "lastDate": "04-10-2023"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "7.64",
+              "currency": "$",
+              "lastDate": "04-10-2023"
             }
           ]
         },
@@ -201,6 +207,13 @@
               "currency": "$",
               "convertedStockPrice": "4.16",
               "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "13.19",
+              "currency": "USD",
+              "convertedStockPrice": "69.6458",
+              "convertedStockPriceCurrency": "BRL"
             }
           ]
         },
@@ -240,6 +253,13 @@
               "stockPrice": "0.8",
               "currency": "$",
               "convertedStockPrice": "4.2",
+              "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "13.16",
+              "currency": "USD",
+              "convertedStockPrice": "68.6557",
               "convertedStockPriceCurrency": "BRL"
             }
           ]
@@ -281,6 +301,13 @@
               "currency": "$",
               "convertedStockPrice": "4.27",
               "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "13.41",
+              "currency": "USD",
+              "convertedStockPrice": "69.6153",
+              "convertedStockPriceCurrency": "BRL"
             }
           ]
         },
@@ -320,6 +347,13 @@
               "stockPrice": "0.78",
               "currency": "$",
               "convertedStockPrice": "4.13",
+              "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "12.68",
+              "currency": "USD",
+              "convertedStockPrice": "66.8718",
               "convertedStockPriceCurrency": "BRL"
             }
           ]
@@ -361,6 +395,13 @@
               "currency": "$",
               "convertedStockPrice": "4.09",
               "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "12.57",
+              "currency": "USD",
+              "convertedStockPrice": "66.7278",
+              "convertedStockPriceCurrency": "BRL"
             }
           ]
         },
@@ -400,6 +441,13 @@
               "stockPrice": "0.75",
               "currency": "$",
               "convertedStockPrice": "3.97",
+              "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "12.16",
+              "currency": "USD",
+              "convertedStockPrice": "64.7423",
               "convertedStockPriceCurrency": "BRL"
             }
           ]
@@ -441,6 +489,13 @@
               "currency": "$",
               "convertedStockPrice": "4.13",
               "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "12.36",
+              "currency": "USD",
+              "convertedStockPrice": "65.5043",
+              "convertedStockPriceCurrency": "BRL"
             }
           ]
         },
@@ -480,6 +535,13 @@
               "stockPrice": "0.78",
               "currency": "$",
               "convertedStockPrice": "4.15",
+              "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "12.2",
+              "currency": "USD",
+              "convertedStockPrice": "65.2078",
               "convertedStockPriceCurrency": "BRL"
             }
           ]
@@ -521,6 +583,13 @@
               "currency": "$",
               "convertedStockPrice": "4.29",
               "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "12.93",
+              "currency": "USD",
+              "convertedStockPrice": "67.9653",
+              "convertedStockPriceCurrency": "BRL"
             }
           ]
         },
@@ -560,6 +629,25 @@
               "stockPrice": "0.88",
               "currency": "$",
               "convertedStockPrice": "4.51",
+              "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "12.82",
+              "currency": "USD",
+              "convertedStockPrice": "66.0153",
+              "convertedStockPriceCurrency": "BRL"
+            }
+          ]
+        },
+        {
+          "date": "02-11-2022",
+          "tickers": [
+            {
+              "ticker": "BAK",
+              "stockPrice": "12.38",
+              "currency": "USD",
+              "convertedStockPrice": "63.7496",
               "convertedStockPriceCurrency": "BRL"
             }
           ]
@@ -601,6 +689,13 @@
               "currency": "$",
               "convertedStockPrice": "4.7",
               "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "12.54",
+              "currency": "USD",
+              "convertedStockPrice": "64.3841",
+              "convertedStockPriceCurrency": "BRL"
             }
           ]
         },
@@ -640,6 +735,13 @@
               "stockPrice": "0.94",
               "currency": "$",
               "convertedStockPrice": "4.72",
+              "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "13.13",
+              "currency": "USD",
+              "convertedStockPrice": "66.1148",
               "convertedStockPriceCurrency": "BRL"
             }
           ]
@@ -681,6 +783,13 @@
               "currency": "$",
               "convertedStockPrice": "4.47",
               "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "12.48",
+              "currency": "USD",
+              "convertedStockPrice": "63.4982",
+              "convertedStockPriceCurrency": "BRL"
             }
           ]
         },
@@ -720,6 +829,13 @@
               "stockPrice": "0.88",
               "currency": "$",
               "convertedStockPrice": "4.55",
+              "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "12.33",
+              "currency": "USD",
+              "convertedStockPrice": "63.793",
               "convertedStockPriceCurrency": "BRL"
             }
           ]
@@ -761,6 +877,13 @@
               "currency": "$",
               "convertedStockPrice": "4.47",
               "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "11.52",
+              "currency": "USD",
+              "convertedStockPrice": "59.4697",
+              "convertedStockPriceCurrency": "BRL"
             }
           ]
         },
@@ -800,6 +923,13 @@
               "stockPrice": "0.77",
               "currency": "$",
               "convertedStockPrice": "4.11",
+              "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "10.71",
+              "currency": "USD",
+              "convertedStockPrice": "56.8251",
               "convertedStockPriceCurrency": "BRL"
             }
           ]
@@ -841,6 +971,13 @@
               "currency": "$",
               "convertedStockPrice": "4.14",
               "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "11.99",
+              "currency": "USD",
+              "convertedStockPrice": "63.601",
+              "convertedStockPriceCurrency": "BRL"
             }
           ]
         },
@@ -880,6 +1017,25 @@
               "stockPrice": "0.78",
               "currency": "$",
               "convertedStockPrice": "4.12",
+              "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "11.68",
+              "currency": "USD",
+              "convertedStockPrice": "61.9122",
+              "convertedStockPriceCurrency": "BRL"
+            }
+          ]
+        },
+        {
+          "date": "15-11-2022",
+          "tickers": [
+            {
+              "ticker": "BAK",
+              "stockPrice": "11.8",
+              "currency": "USD",
+              "convertedStockPrice": "62.5483",
               "convertedStockPriceCurrency": "BRL"
             }
           ]
@@ -921,6 +1077,13 @@
               "currency": "$",
               "convertedStockPrice": "4.03",
               "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "11.19",
+              "currency": "USD",
+              "convertedStockPrice": "59.5286",
+              "convertedStockPriceCurrency": "BRL"
             }
           ]
         },
@@ -960,6 +1123,13 @@
               "stockPrice": "0.72",
               "currency": "$",
               "convertedStockPrice": "3.91",
+              "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "11.03",
+              "currency": "USD",
+              "convertedStockPrice": "60.2778",
               "convertedStockPriceCurrency": "BRL"
             }
           ]
@@ -1001,6 +1171,13 @@
               "currency": "$",
               "convertedStockPrice": "4.07",
               "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "10.93",
+              "currency": "USD",
+              "convertedStockPrice": "58.4438",
+              "convertedStockPriceCurrency": "BRL"
             }
           ]
         },
@@ -1040,6 +1217,13 @@
               "stockPrice": "0.76",
               "currency": "$",
               "convertedStockPrice": "4.03",
+              "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "11.1",
+              "currency": "USD",
+              "convertedStockPrice": "59.1108",
               "convertedStockPriceCurrency": "BRL"
             }
           ]
@@ -1081,6 +1265,13 @@
               "currency": "$",
               "convertedStockPrice": "4.03",
               "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "10.91",
+              "currency": "USD",
+              "convertedStockPrice": "58.1863",
+              "convertedStockPriceCurrency": "BRL"
             }
           ]
         },
@@ -1120,6 +1311,13 @@
               "stockPrice": "0.74",
               "currency": "$",
               "convertedStockPrice": "4",
+              "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "10.91",
+              "currency": "USD",
+              "convertedStockPrice": "58.8311",
               "convertedStockPriceCurrency": "BRL"
             }
           ]
@@ -1201,6 +1399,13 @@
               "currency": "$",
               "convertedStockPrice": "4.05",
               "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "10.86",
+              "currency": "USD",
+              "convertedStockPrice": "58.1032",
+              "convertedStockPriceCurrency": "BRL"
             }
           ]
         },
@@ -1240,6 +1445,13 @@
               "stockPrice": "0.75",
               "currency": "$",
               "convertedStockPrice": "4.02",
+              "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "10.65",
+              "currency": "USD",
+              "convertedStockPrice": "56.9796",
               "convertedStockPriceCurrency": "BRL"
             }
           ]
@@ -1281,6 +1493,13 @@
               "currency": "$",
               "convertedStockPrice": "4",
               "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "11.11",
+              "currency": "USD",
+              "convertedStockPrice": "58.9608",
+              "convertedStockPriceCurrency": "BRL"
             }
           ]
         },
@@ -1320,6 +1539,13 @@
               "stockPrice": "0.77",
               "currency": "$",
               "convertedStockPrice": "4.05",
+              "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "10.97",
+              "currency": "USD",
+              "convertedStockPrice": "58.0697",
               "convertedStockPriceCurrency": "BRL"
             }
           ]
@@ -1361,6 +1587,13 @@
               "currency": "$",
               "convertedStockPrice": "3.84",
               "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "10.77",
+              "currency": "USD",
+              "convertedStockPrice": "55.9415",
+              "convertedStockPriceCurrency": "BRL"
             }
           ]
         },
@@ -1400,6 +1633,13 @@
               "stockPrice": "0.75",
               "currency": "$",
               "convertedStockPrice": "3.9",
+              "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "10.85",
+              "currency": "USD",
+              "convertedStockPrice": "56.3853",
               "convertedStockPriceCurrency": "BRL"
             }
           ]
@@ -1441,6 +1681,13 @@
               "currency": "$",
               "convertedStockPrice": "3.73",
               "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "10.22",
+              "currency": "USD",
+              "convertedStockPrice": "53.6111",
+              "convertedStockPriceCurrency": "BRL"
             }
           ]
         },
@@ -1480,6 +1727,13 @@
               "stockPrice": "0.7",
               "currency": "$",
               "convertedStockPrice": "3.68",
+              "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "10.18",
+              "currency": "USD",
+              "convertedStockPrice": "53.333",
               "convertedStockPriceCurrency": "BRL"
             }
           ]
@@ -1521,6 +1775,13 @@
               "currency": "$",
               "convertedStockPrice": "3.6",
               "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "10.02",
+              "currency": "USD",
+              "convertedStockPrice": "52.3064",
+              "convertedStockPriceCurrency": "BRL"
             }
           ]
         },
@@ -1560,6 +1821,13 @@
               "stockPrice": "0.64",
               "currency": "$",
               "convertedStockPrice": "3.34",
+              "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "9.55",
+              "currency": "USD",
+              "convertedStockPrice": "49.7412",
               "convertedStockPriceCurrency": "BRL"
             }
           ]
@@ -1601,6 +1869,13 @@
               "currency": "$",
               "convertedStockPrice": "3.35",
               "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "9.67",
+              "currency": "USD",
+              "convertedStockPrice": "50.6611",
+              "convertedStockPriceCurrency": "BRL"
             }
           ]
         },
@@ -1640,6 +1915,13 @@
               "stockPrice": "0.62",
               "currency": "$",
               "convertedStockPrice": "3.3",
+              "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "9.47",
+              "currency": "USD",
+              "convertedStockPrice": "50.2478",
               "convertedStockPriceCurrency": "BRL"
             }
           ]
@@ -1681,6 +1963,13 @@
               "currency": "$",
               "convertedStockPrice": "3.26",
               "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "9.62",
+              "currency": "USD",
+              "convertedStockPrice": "50.6618",
+              "convertedStockPriceCurrency": "BRL"
             }
           ]
         },
@@ -1720,6 +2009,13 @@
               "stockPrice": "0.63",
               "currency": "$",
               "convertedStockPrice": "3.34",
+              "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "9.58",
+              "currency": "USD",
+              "convertedStockPrice": "51.1572",
               "convertedStockPriceCurrency": "BRL"
             }
           ]
@@ -1761,6 +2057,13 @@
               "currency": "$",
               "convertedStockPrice": "3.3",
               "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "9.07",
+              "currency": "USD",
+              "convertedStockPrice": "48.2315",
+              "convertedStockPriceCurrency": "BRL"
             }
           ]
         },
@@ -1800,6 +2103,13 @@
               "stockPrice": "0.62",
               "currency": "$",
               "convertedStockPrice": "3.26",
+              "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "8.63",
+              "currency": "USD",
+              "convertedStockPrice": "45.5673",
               "convertedStockPriceCurrency": "BRL"
             }
           ]
@@ -1841,6 +2151,13 @@
               "currency": "$",
               "convertedStockPrice": "3.34",
               "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "8.57",
+              "currency": "USD",
+              "convertedStockPrice": "45.553",
+              "convertedStockPriceCurrency": "BRL"
             }
           ]
         },
@@ -1880,6 +2197,13 @@
               "stockPrice": "0.68",
               "currency": "$",
               "convertedStockPrice": "3.54",
+              "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "9.09",
+              "currency": "USD",
+              "convertedStockPrice": "47.6507",
               "convertedStockPriceCurrency": "BRL"
             }
           ]
@@ -1921,6 +2245,13 @@
               "currency": "$",
               "convertedStockPrice": "3.62",
               "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "9.13",
+              "currency": "USD",
+              "convertedStockPrice": "47.4988",
+              "convertedStockPriceCurrency": "BRL"
             }
           ]
         },
@@ -1961,6 +2292,13 @@
               "currency": "$",
               "convertedStockPrice": "3.63",
               "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "8.99",
+              "currency": "USD",
+              "convertedStockPrice": "46.6266",
+              "convertedStockPriceCurrency": "BRL"
             }
           ]
         },
@@ -2000,6 +2338,13 @@
               "stockPrice": "0.72",
               "currency": "$",
               "convertedStockPrice": "3.71",
+              "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "9.29",
+              "currency": "USD",
+              "convertedStockPrice": "47.7868",
               "convertedStockPriceCurrency": "BRL"
             }
           ]
@@ -2081,6 +2426,13 @@
               "currency": "$",
               "convertedStockPrice": "3.68",
               "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "9.09",
+              "currency": "USD",
+              "convertedStockPrice": "48.0188",
+              "convertedStockPriceCurrency": "BRL"
             }
           ]
         },
@@ -2121,6 +2473,13 @@
               "currency": "$",
               "convertedStockPrice": "3.75",
               "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "9.15",
+              "currency": "USD",
+              "convertedStockPrice": "48.248",
+              "convertedStockPriceCurrency": "BRL"
             }
           ]
         },
@@ -2160,6 +2519,25 @@
               "stockPrice": "0.72",
               "currency": "$",
               "convertedStockPrice": "3.74",
+              "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "9.12",
+              "currency": "USD",
+              "convertedStockPrice": "47.58",
+              "convertedStockPriceCurrency": "BRL"
+            }
+          ]
+        },
+        {
+          "date": "30-12-2022",
+          "tickers": [
+            {
+              "ticker": "BAK",
+              "stockPrice": "9.2",
+              "currency": "USD",
+              "convertedStockPrice": "47.9973",
               "convertedStockPriceCurrency": "BRL"
             }
           ]
@@ -2241,6 +2619,13 @@
               "currency": "$",
               "convertedStockPrice": "3.34",
               "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "8.29",
+              "currency": "USD",
+              "convertedStockPrice": "44.5612",
+              "convertedStockPriceCurrency": "BRL"
             }
           ]
         },
@@ -2280,6 +2665,13 @@
               "stockPrice": "0.61",
               "currency": "$",
               "convertedStockPrice": "3.32",
+              "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "8.28",
+              "currency": "USD",
+              "convertedStockPrice": "45.0871",
               "convertedStockPriceCurrency": "BRL"
             }
           ]
@@ -2321,6 +2713,13 @@
               "currency": "$",
               "convertedStockPrice": "3.23",
               "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "8.68",
+              "currency": "USD",
+              "convertedStockPrice": "46.8894",
+              "convertedStockPriceCurrency": "BRL"
             }
           ]
         },
@@ -2360,6 +2759,13 @@
               "stockPrice": "0.61",
               "currency": "$",
               "convertedStockPrice": "3.22",
+              "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "8.94",
+              "currency": "USD",
+              "convertedStockPrice": "47.247",
               "convertedStockPriceCurrency": "BRL"
             }
           ]
@@ -2401,6 +2807,13 @@
               "currency": "$",
               "convertedStockPrice": "3.23",
               "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "8.91",
+              "currency": "USD",
+              "convertedStockPrice": "47.1883",
+              "convertedStockPriceCurrency": "BRL"
             }
           ]
         },
@@ -2440,6 +2853,13 @@
               "stockPrice": "0.64",
               "currency": "$",
               "convertedStockPrice": "3.35",
+              "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "8.92",
+              "currency": "USD",
+              "convertedStockPrice": "46.731",
               "convertedStockPriceCurrency": "BRL"
             }
           ]
@@ -2481,6 +2901,13 @@
               "currency": "$",
               "convertedStockPrice": "3.58",
               "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "9.25",
+              "currency": "USD",
+              "convertedStockPrice": "48.1129",
+              "convertedStockPriceCurrency": "BRL"
             }
           ]
         },
@@ -2521,6 +2948,13 @@
               "currency": "$",
               "convertedStockPrice": "3.49",
               "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "9.43",
+              "currency": "USD",
+              "convertedStockPrice": "48.4645",
+              "convertedStockPriceCurrency": "BRL"
             }
           ]
         },
@@ -2560,6 +2994,13 @@
               "stockPrice": "0.65",
               "currency": "$",
               "convertedStockPrice": "3.34",
+              "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "9.26",
+              "currency": "USD",
+              "convertedStockPrice": "47.3556",
               "convertedStockPriceCurrency": "BRL"
             }
           ]
@@ -2641,6 +3082,13 @@
               "currency": "$",
               "convertedStockPrice": "3.36",
               "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "9.04",
+              "currency": "USD",
+              "convertedStockPrice": "46.2821",
+              "convertedStockPriceCurrency": "BRL"
             }
           ]
         },
@@ -2721,6 +3169,13 @@
               "currency": "$",
               "convertedStockPrice": "3.41",
               "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "8.77",
+              "currency": "USD",
+              "convertedStockPrice": "44.6419",
+              "convertedStockPriceCurrency": "BRL"
             }
           ]
         },
@@ -2760,6 +3215,13 @@
               "stockPrice": "0.63",
               "currency": "$",
               "convertedStockPrice": "3.29",
+              "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "8.32",
+              "currency": "USD",
+              "convertedStockPrice": "43.2474",
               "convertedStockPriceCurrency": "BRL"
             }
           ]
@@ -2801,6 +3263,13 @@
               "currency": "$",
               "convertedStockPrice": "3.29",
               "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "8.46",
+              "currency": "USD",
+              "convertedStockPrice": "43.9209",
+              "convertedStockPriceCurrency": "BRL"
             }
           ]
         },
@@ -2840,6 +3309,13 @@
               "stockPrice": "0.67",
               "currency": "$",
               "convertedStockPrice": "3.47",
+              "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "8.92",
+              "currency": "USD",
+              "convertedStockPrice": "46.1075",
               "convertedStockPriceCurrency": "BRL"
             }
           ]
@@ -2881,6 +3357,13 @@
               "currency": "$",
               "convertedStockPrice": "3.53",
               "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "8.97",
+              "currency": "USD",
+              "convertedStockPrice": "45.7793",
+              "convertedStockPriceCurrency": "BRL"
             }
           ]
         },
@@ -2920,6 +3403,13 @@
               "stockPrice": "0.68",
               "currency": "$",
               "convertedStockPrice": "3.48",
+              "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "9.08",
+              "currency": "USD",
+              "convertedStockPrice": "46.2581",
               "convertedStockPriceCurrency": "BRL"
             }
           ]
@@ -2961,6 +3451,13 @@
               "currency": "$",
               "convertedStockPrice": "3.42",
               "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "9.03",
+              "currency": "USD",
+              "convertedStockPrice": "45.8372",
+              "convertedStockPriceCurrency": "BRL"
             }
           ]
         },
@@ -3000,6 +3497,13 @@
               "stockPrice": "0.64",
               "currency": "$",
               "convertedStockPrice": "3.25",
+              "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "8.9",
+              "currency": "USD",
+              "convertedStockPrice": "45.3482",
               "convertedStockPriceCurrency": "BRL"
             }
           ]
@@ -3041,6 +3545,13 @@
               "currency": "$",
               "convertedStockPrice": "3.29",
               "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "9.23",
+              "currency": "USD",
+              "convertedStockPrice": "47.061",
+              "convertedStockPriceCurrency": "BRL"
             }
           ]
         },
@@ -3080,6 +3591,13 @@
               "stockPrice": "0.62",
               "currency": "$",
               "convertedStockPrice": "3.15",
+              "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "9.47",
+              "currency": "USD",
+              "convertedStockPrice": "48.0271",
               "convertedStockPriceCurrency": "BRL"
             }
           ]
@@ -3121,6 +3639,13 @@
               "currency": "$",
               "convertedStockPrice": "3.05",
               "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "8.98",
+              "currency": "USD",
+              "convertedStockPrice": "44.8057",
+              "convertedStockPriceCurrency": "BRL"
             }
           ]
         },
@@ -3160,6 +3685,13 @@
               "stockPrice": "0.61",
               "currency": "$",
               "convertedStockPrice": "3.09",
+              "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "8.62",
+              "currency": "USD",
+              "convertedStockPrice": "43.9827",
               "convertedStockPriceCurrency": "BRL"
             }
           ]
@@ -3201,6 +3733,13 @@
               "currency": "$",
               "convertedStockPrice": "3.15",
               "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "8.56",
+              "currency": "USD",
+              "convertedStockPrice": "44.304",
+              "convertedStockPriceCurrency": "BRL"
             }
           ]
         },
@@ -3240,6 +3779,13 @@
               "stockPrice": "0.61",
               "currency": "$",
               "convertedStockPrice": "3.13",
+              "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "8.56",
+              "currency": "USD",
+              "convertedStockPrice": "44.2458",
               "convertedStockPriceCurrency": "BRL"
             }
           ]
@@ -3281,6 +3827,13 @@
               "currency": "$",
               "convertedStockPrice": "3.3",
               "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "8.67",
+              "currency": "USD",
+              "convertedStockPrice": "45.11",
+              "convertedStockPriceCurrency": "BRL"
             }
           ]
         },
@@ -3320,6 +3873,13 @@
               "stockPrice": "0.63",
               "currency": "$",
               "convertedStockPrice": "3.28",
+              "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "8.49",
+              "currency": "USD",
+              "convertedStockPrice": "44.4103",
               "convertedStockPriceCurrency": "BRL"
             }
           ]
@@ -3361,6 +3921,13 @@
               "currency": "$",
               "convertedStockPrice": "3.21",
               "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "8.51",
+              "currency": "USD",
+              "convertedStockPrice": "44.6945",
+              "convertedStockPriceCurrency": "BRL"
             }
           ]
         },
@@ -3400,6 +3967,13 @@
               "stockPrice": "0.62",
               "currency": "$",
               "convertedStockPrice": "3.22",
+              "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "8.44",
+              "currency": "USD",
+              "convertedStockPrice": "43.7428",
               "convertedStockPriceCurrency": "BRL"
             }
           ]
@@ -3441,6 +4015,13 @@
               "currency": "$",
               "convertedStockPrice": "2.98",
               "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "8.06",
+              "currency": "USD",
+              "convertedStockPrice": "41.5098",
+              "convertedStockPriceCurrency": "BRL"
             }
           ]
         },
@@ -3480,6 +4061,13 @@
               "stockPrice": "0.59",
               "currency": "$",
               "convertedStockPrice": "3.09",
+              "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "7.91",
+              "currency": "USD",
+              "convertedStockPrice": "41.3195",
               "convertedStockPriceCurrency": "BRL"
             }
           ]
@@ -3521,6 +4109,13 @@
               "currency": "$",
               "convertedStockPrice": "3.08",
               "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "7.8",
+              "currency": "USD",
+              "convertedStockPrice": "40.8923",
+              "convertedStockPriceCurrency": "BRL"
             }
           ]
         },
@@ -3560,6 +4155,25 @@
               "stockPrice": "0.58",
               "currency": "$",
               "convertedStockPrice": "3.03",
+              "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "7.87",
+              "currency": "USD",
+              "convertedStockPrice": "40.9287",
+              "convertedStockPriceCurrency": "BRL"
+            }
+          ]
+        },
+        {
+          "date": "21-02-2023",
+          "tickers": [
+            {
+              "ticker": "BAK",
+              "stockPrice": "7.63",
+              "currency": "USD",
+              "convertedStockPrice": "39.6806",
               "convertedStockPriceCurrency": "BRL"
             }
           ]
@@ -3601,6 +4215,13 @@
               "currency": "$",
               "convertedStockPrice": "3.08",
               "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "7.76",
+              "currency": "USD",
+              "convertedStockPrice": "40.1378",
+              "convertedStockPriceCurrency": "BRL"
             }
           ]
         },
@@ -3640,6 +4261,13 @@
               "stockPrice": "0.59",
               "currency": "$",
               "convertedStockPrice": "3.04",
+              "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "7.91",
+              "currency": "USD",
+              "convertedStockPrice": "40.5973",
               "convertedStockPriceCurrency": "BRL"
             }
           ]
@@ -3681,6 +4309,13 @@
               "currency": "$",
               "convertedStockPrice": "2.89",
               "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "7.69",
+              "currency": "USD",
+              "convertedStockPrice": "39.8227",
+              "convertedStockPriceCurrency": "BRL"
             }
           ]
         },
@@ -3721,6 +4356,13 @@
               "currency": "$",
               "convertedStockPrice": "3.04",
               "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "7.66",
+              "currency": "USD",
+              "convertedStockPrice": "39.7968",
+              "convertedStockPriceCurrency": "BRL"
             }
           ]
         },
@@ -3760,6 +4402,13 @@
               "stockPrice": "0.59",
               "currency": "$",
               "convertedStockPrice": "3.08",
+              "convertedStockPriceCurrency": "BRL"
+            },
+            {
+              "ticker": "BAK",
+              "stockPrice": "7.75",
+              "currency": "USD",
+              "convertedStockPrice": "40.3558",
               "convertedStockPriceCurrency": "BRL"
             }
           ]
